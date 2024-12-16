@@ -1,7 +1,7 @@
 <template>
   <div>
     <header>
-      <h1>Achivy - Add your new post here!</h1>
+      <h1>Add your new post here!</h1>
     </header>
     <AddProjectSubject @addProjectSubject="addSubject" />
     <ProjectSubjectFilter @filterUpdated="filterSubjects" />
